@@ -5,7 +5,7 @@ from pymongo import MongoClient
 from datetime import datetime
 
 # Koneksi ke MongoDB
-client = MongoClient('mongodb+srv://rifqizainartano23480:<db_password>@bigdata.aff9ojp.mongodb.net/')
+client = MongoClient('mongodb://localhost:27017/')
 db = client['Tenis_Meja']  # Gantilah spasi dengan underscore
 collection = db['berita_tenismeja']
 
