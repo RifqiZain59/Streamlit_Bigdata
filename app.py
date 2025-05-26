@@ -10,7 +10,7 @@ import plotly.express as px
 st.set_page_config(page_title="Analisis Artikel Tenis Meja", layout="wide", page_icon="🏓")
 
 # --- Koneksi ke MongoDB ---
-client = MongoClient('mongodb+srv://rifqizainartano23480:<db_password>@bigdata.aff9ojp.mongodb.net/')
+client = MongoClient('mongodb+srv://rifqizainartano23480:<Artano050904>@bigdata.aff9ojp.mongodb.net/')
 db = client['Tenis_Meja']
 collection = db['berita_tenismeja']
 
